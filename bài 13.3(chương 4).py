@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  9 21:16:21 2020
 
-@author: tanta
-"""
 
 import random
 import string
@@ -23,11 +18,11 @@ def text():
 print('số file có kích thước 1000KB là: ',a)
 print('file cuối cùng có kích thước: ',b/1024,"KB")
 for i in range(a): 
-	file=open('tantai'+str(i+1)+'.txt' ,'x')
+	file=open('adk'+str(i+1)+'.txt' ,'x')
 	file.write(text())
 	file.close()
 if b>0: 
-    file=open('proboy'+'.txt' ,'x')
+    file=open('dkkhrhr'+'.txt' ,'x')
     file.write(''.join(random.sample(f,b)))
 file.close()
 print('Kết thúc')
